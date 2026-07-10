@@ -1,7 +1,7 @@
 {
   "name": "git-find-remote",
   "version": "1.0.0",
-  "bin":{
+  "bin": {
     "git-find-remote": "./bin/cli.js"
   },
   "main": "lib/search.js",
@@ -22,11 +22,14 @@
   "author": "OmarDevelopment",
   "license": "MIT",
   "description": "",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/omarakamal/git-find-remote.git",
     "homepage": "https://github.com/omarakamal/git-find-remote/README.md"
-
+  },
+  "devDependencies": {
+    "execa": "^9.6.1",
+    "jest": "^30.4.2",
+    "mock-fs": "^5.5.0"
   }
-
 }
