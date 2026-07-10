@@ -1,0 +1,25 @@
+{
+  "name": "git-find-remote",
+  "version": "1.0.0",
+  "bin":{
+    "git-find-remote": "./bin/cli.js"
+  },
+  "main": "lib/search.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "find",
+    "finder",
+    "repository",
+    ".git",
+    "remote",
+    "terminal",
+    "cli"
+  ],
+  "author": "OmarDevelopment",
+  "license": "MIT",
+  "description": ""
+}
