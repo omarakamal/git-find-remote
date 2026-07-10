@@ -6,7 +6,7 @@
   },
   "main": "lib/search.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "git",
