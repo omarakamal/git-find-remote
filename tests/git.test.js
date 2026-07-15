@@ -9,10 +9,6 @@ describe("getRemote", () => {
         mock.restore()
     })
 
-    test('dummy test',()=>{
-        expect(1).toEqual(2)
-    })
-
     test("returns null when no git folder exists", async () => {
 
 
